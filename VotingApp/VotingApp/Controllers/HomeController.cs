@@ -17,7 +17,7 @@ namespace VotingApp.Controllers
         {
             var poll = new
             {
-                question = "Which is your favourite fruit?",
+                question = "Vote for the best Table/Team in the IT Share Fair.",
                 choices = VotingHub.poll.Select(x => new { name = x.Key, count = x.Value }).ToList()
             };
             return Json(poll, JsonRequestBehavior.AllowGet);
@@ -28,18 +28,5 @@ namespace VotingApp.Controllers
             return View();
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
     }
 }

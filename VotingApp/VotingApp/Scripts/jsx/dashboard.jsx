@@ -39,7 +39,7 @@ var DashboardApp = React.createClass({
 	render: function() {
 		return (
             <div className="dashboardapp">     		 			  
-				<D3PieChart data={this.state.data} title="Fruits"/>			   
+				<D3PieChart data={this.state.data} title="Tables"/>			   
             </div>
         );
 	}
