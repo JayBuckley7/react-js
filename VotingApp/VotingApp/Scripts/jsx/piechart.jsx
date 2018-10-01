@@ -1,4 +1,21 @@
-﻿var colors = ['#FD9827', '#DA3B21', '#3669C9', '#1D9524', '#971497'];
+﻿var colors = ['#FD9827'];
+pop();
+
+
+function pop() {
+    for (var i = 0; i < 200; i++) {
+        colors.push(getRandomColor());
+    }
+}
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
 var D3Legend = React.createClass({
 
   propTypes: {

@@ -16,11 +16,11 @@ namespace VotingApp
         public static Dictionary<string, int> populateDict()
         {
             Dictionary<string, int> temp = new Dictionary<string, int>();
-            StreamReader sr = new StreamReader(@"C:\Users\s292155\Desktop\Tables.txt");
+            StreamReader sr = new StreamReader(@"\\tsvmaephqda001\Voting\Tables.txt");
 
             while (!sr.EndOfStream)
             {
-                temp.Add(sr.ReadLine(), 0);
+                temp.Add(sr.ReadLine(), 1);
             }
             sr.Close();
             sr.Dispose();
