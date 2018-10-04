@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>\\tsvmaephqda001\Voting\VotingApp</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\inetpub\wwwroot</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
@@ -91,10 +91,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/01/2013 20:54:26</publishTime>
     </File>
     <File Include="bin/VotingApp.dll">
-      <publishTime>10/01/2018 13:10:07</publishTime>
+      <publishTime>10/04/2018 13:59:15</publishTime>
     </File>
     <File Include="bin/VotingApp.pdb">
-      <publishTime>10/01/2018 13:10:07</publishTime>
+      <publishTime>10/04/2018 13:59:15</publishTime>
     </File>
     <File Include="bin/WebActivatorEx.dll">
       <publishTime>11/24/2014 11:18:48</publishTime>
@@ -103,13 +103,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/17/2013 17:03:52</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>10/01/2018 12:04:26</publishTime>
+      <publishTime>10/02/2018 10:07:36</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
       <publishTime>10/01/2018 12:00:55</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>10/01/2018 12:06:04</publishTime>
+      <publishTime>10/02/2018 09:43:04</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>10/01/2018 12:00:55</publishTime>
@@ -166,10 +166,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/01/2018 12:14:42</publishTime>
     </File>
     <File Include="Scripts/jsx/form.jsx">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/04/2018 13:51:41</publishTime>
     </File>
     <File Include="Scripts/jsx/piechart.jsx">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/01/2018 16:14:31</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.6.2.js">
       <publishTime>10/01/2018 12:00:55</publishTime>
@@ -184,7 +184,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/01/2018 12:00:55</publishTime>
     </File>
     <File Include="Scripts/react/react-with-addons-0.12.2.js">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/04/2018 09:41:49</publishTime>
     </File>
     <File Include="Scripts/react/react-with-addons-0.12.2.min.js">
       <publishTime>10/01/2018 12:00:55</publishTime>

@@ -7173,7 +7173,8 @@ var ReactCompositeComponent = {
         console.warn(
           (spec.displayName || 'A component') + ' has a method called ' +
           'componentShouldUpdate(). Did you mean shouldComponentUpdate()? ' +
-          'The name is phrased as a question because the function is ' +
+            'The name is phrased as a 
+            because the function is ' +
           'expected to return a value.'
          );
       }

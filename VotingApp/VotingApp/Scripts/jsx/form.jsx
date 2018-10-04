@@ -19,8 +19,9 @@
 
 var QuizContainer = React.createClass( {
     getInitialState: function() {
-        return {           
-            current_quiz: { question : '', choices:[] },
+        return {     
+            //current_quiz: {question: '', choices: [] },
+            current_quiz: { Header : '', question : '', voteTxt : '' , choices : [] },
             user_choice: "",
 			is_done: false           
         };
@@ -58,7 +59,8 @@ var QuizContainer = React.createClass( {
     render: function() {
         var self = this;
 
-		if (this.state.is_done === true){
+        if (this.state.is_done === true) {
+            setTimeout(function(){window.location.href = "/home";}, 1000); //Set time out(Action,Time) Im using action to redirect home
 			return (
 				<div className="quizContainer">
 					<h1>Thank you for your vote. </h1>
@@ -71,16 +73,19 @@ var QuizContainer = React.createClass( {
             return (
                 <RadioInput key={choice.name} choice={choice.name} index={index} onChoiceSelect={self.selectedAnswer} />
             );
-        } );
-        var button_name = "Submit";
+            });
+            
+            var button_name = this.state.current_quiz.voteTxt;
         return(
             <div className="quizContainer">
-                <h1>Quiz</h1>
+                <h1>{this.state.current_quiz.Header}</h1>
                 <p>{this.state.current_quiz.question}</p>
+                <button id="submit1" className="btn btn-default" onClick={this.handleSubmit}>{button_name}</button>
                 {choices}
-                <button id="submit" className="btn btn-default" onClick={this.handleSubmit}>{button_name}</button>               
+                <button id="submit2" className="btn btn-default" onClick={this.handleSubmit}>{button_name}</button>               
             </div>
         );
+
 		}
     }
 } );
