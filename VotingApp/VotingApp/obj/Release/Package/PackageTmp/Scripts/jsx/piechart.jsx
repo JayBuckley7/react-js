@@ -15,7 +15,13 @@ function getRandomColor() {
     }
     return color;
 }
-
+function compare(a, b) {
+    if (a.count < b.count)
+        return 1;
+    if (a.count > b.count)
+        return -1;
+    return 0;
+}
 var D3Legend = React.createClass({
 
   propTypes: {
@@ -98,9 +104,11 @@ var DataSeries = React.createClass({
     color: React.PropTypes.array,
     data: React.PropTypes.array.isRequired,
   },
-  render: function() {
+    render: function () {
+    
     var color = this.props.colors;
     var data = this.props.data;
+    data.sort(compare)
     var width = this.props.width;
     var height = this.props.height;
     var pie = d3.layout.pie();

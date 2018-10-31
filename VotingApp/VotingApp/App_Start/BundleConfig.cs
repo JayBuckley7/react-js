@@ -3,6 +3,11 @@ using System.Web.Optimization;
 
 namespace VotingApp
 {
+    /// <summary>
+    /// BundleConfig is nothing more than bundle configuration moved to separate file. 
+    /// It used to be part of app startup code (filters, bundles, routes used to be configured in one class)
+    /// 
+    /// </summary>
     public class BundleConfig
     {
         // For more information on bundling, visit http://go.microsoft.com/fwlink/?LinkId=301862

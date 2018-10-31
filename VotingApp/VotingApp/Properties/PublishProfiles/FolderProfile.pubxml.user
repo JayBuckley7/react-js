@@ -6,221 +6,227 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\inetpub\wwwroot</_PublishTargetUrl>
+    <_PublishTargetUrl>\\tsvmaephqda001\Voting</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
-      <publishTime>02/22/2013 08:43:40</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.pdb">
-      <publishTime>02/22/2013 08:43:40</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/JavaScriptEngineSwitcher.Core.dll">
-      <publishTime>10/13/2014 18:35:38</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/JavaScriptEngineSwitcher.Jint.dll">
-      <publishTime>10/22/2014 20:56:04</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/JavaScriptEngineSwitcher.Msie.dll">
-      <publishTime>01/13/2015 21:18:56</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/Jint.dll">
-      <publishTime>10/22/2014 20:56:04</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/JSPool.dll">
-      <publishTime>11/29/2014 23:08:00</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.SignalR.Core.dll">
-      <publishTime>10/23/2013 02:23:04</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.dll">
-      <publishTime>09/11/2013 01:49:58</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
-      <publishTime>09/11/2013 01:49:56</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.dll">
-      <publishTime>09/11/2013 01:49:58</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
-      <publishTime>07/25/2012 11:48:56</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/MsieJavaScriptEngine.dll">
-      <publishTime>01/13/2015 21:18:14</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>06/06/2013 13:33:54</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/Owin.dll">
-      <publishTime>11/13/2012 12:19:34</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/React.dll">
-      <publishTime>11/30/2014 20:19:58</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/React.Web.dll">
-      <publishTime>11/30/2014 20:20:00</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/React.Web.Mvc4.dll">
-      <publishTime>11/30/2014 20:20:02</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/ru-ru/JavaScriptEngineSwitcher.Core.resources.dll">
-      <publishTime>10/13/2014 18:35:38</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/ru-ru/MsieJavaScriptEngine.resources.dll">
-      <publishTime>01/13/2015 21:18:14</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>10/01/2013 20:54:26</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>10/01/2013 20:54:22</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>09/04/2013 02:27:04</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>10/01/2013 20:54:24</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Deployment.dll">
-      <publishTime>10/01/2013 20:54:26</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.dll">
-      <publishTime>10/01/2013 20:54:26</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
-      <publishTime>10/01/2013 20:54:26</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/VotingApp.dll">
-      <publishTime>10/04/2018 13:59:15</publishTime>
+      <publishTime>10/12/2018 14:15:08</publishTime>
     </File>
     <File Include="bin/VotingApp.pdb">
-      <publishTime>10/04/2018 13:59:15</publishTime>
+      <publishTime>10/12/2018 14:15:08</publishTime>
     </File>
     <File Include="bin/WebActivatorEx.dll">
-      <publishTime>11/24/2014 11:18:48</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
-      <publishTime>07/17/2013 17:03:52</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>10/02/2018 10:07:36</publishTime>
+      <publishTime>10/08/2018 11:25:31</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
       <publishTime>10/01/2018 12:00:55</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>10/02/2018 09:43:04</publishTime>
+      <publishTime>10/05/2018 11:56:33</publishTime>
     </File>
     <File Include="favicon.ico">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/d3/d3.js">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/d3/d3.min.js">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/d3/LICENSE">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.js">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.min.js">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.min.map">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/jquery.signalR-2.0.1.js">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/jquery.signalR-2.0.1.min.js">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/jsx/dashboard.jsx">
-      <publishTime>10/01/2018 12:14:42</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/jsx/form.jsx">
-      <publishTime>10/04/2018 13:51:41</publishTime>
+      <publishTime>10/08/2018 13:05:29</publishTime>
     </File>
     <File Include="Scripts/jsx/piechart.jsx">
-      <publishTime>10/01/2018 16:14:31</publishTime>
+      <publishTime>10/05/2018 15:33:22</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.6.2.js">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/react/JSXTransformer-0.12.2.js">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/react/react-0.12.2.js">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/react/react-0.12.2.min.js">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/react/react-with-addons-0.12.2.js">
-      <publishTime>10/04/2018 09:41:49</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/react/react-with-addons-0.12.2.min.js">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/respond.js">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/respond.min.js">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Scripts/_references.js">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/08/2018 12:14:32</publishTime>
+    </File>
+    <File Include="Views/Home/bunny.cshtml">
+      <publishTime>10/08/2018 12:09:37</publishTime>
     </File>
     <File Include="Views/Home/Dashboard.cshtml">
-      <publishTime>10/01/2018 12:11:45</publishTime>
+      <publishTime>10/08/2018 12:22:59</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
+    </File>
+    <File Include="Views/Home/sampleImage.jpg">
+      <publishTime>10/08/2018 12:09:30</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/08/2018 13:00:54</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>10/01/2018 12:02:37</publishTime>
+      <publishTime>10/08/2018 13:05:29</publishTime>
     </File>
     <File Include="Views/Web.config">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>10/01/2018 12:00:55</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/01/2018 13:10:07</publishTime>
+      <publishTime>10/05/2018 10:27:58</publishTime>
     </File>
   </ItemGroup>
 </Project>

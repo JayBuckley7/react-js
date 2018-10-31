@@ -46,8 +46,6 @@ C:\Users\s292155\source\repos\react-js\VotingApp\VotingApp\bin\Newtonsoft.Json.x
 C:\Users\s292155\source\repos\react-js\VotingApp\VotingApp\bin\Antlr3.Runtime.pdb
 C:\Users\s292155\source\repos\react-js\VotingApp\VotingApp\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
 C:\Users\s292155\source\repos\react-js\VotingApp\VotingApp\bin\ru-ru\MsieJavaScriptEngine.resources.dll
-C:\Users\s292155\source\repos\react-js\VotingApp\VotingApp\obj\Release\VotingApp.csprojAssemblyReference.cache
-C:\Users\s292155\source\repos\react-js\VotingApp\VotingApp\obj\Release\VotingApp.csproj.CoreCompileInputs.cache
-C:\Users\s292155\source\repos\react-js\VotingApp\VotingApp\obj\Release\VotingApp.csproj.CopyComplete
 C:\Users\s292155\source\repos\react-js\VotingApp\VotingApp\obj\Release\VotingApp.dll
 C:\Users\s292155\source\repos\react-js\VotingApp\VotingApp\obj\Release\VotingApp.pdb
+C:\Users\s292155\source\repos\react-js\VotingApp\VotingApp\obj\Release\VotingApp.csprojResolveAssemblyReference.cache

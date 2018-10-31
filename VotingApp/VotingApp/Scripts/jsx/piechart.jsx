@@ -1,31 +1,42 @@
-﻿var colors = ['#FD9827'];
-pop();
+﻿//this is what defines our piechart on the dashboard
+
+var colors = ['#FD9827']; //this color is an artifact of me trying to make a bunch of colors, this is the reason why the app with the most apps is always orange, because its first in the array
+pop(); //pop will make fill out possible colors array for us to use
 
 
 function pop() {
-    for (var i = 0; i < 200; i++) {
-        colors.push(getRandomColor());
+    for (var i = 0; i < 200; i++) { // from 0, 200 so if you had 200 cramped little options all of them would have a unique...ish color you can boost it almost forever though
+        colors.push(getRandomColor()); //adds the new color the the stack
     }
 }
 function getRandomColor() {
+    //so a color is a # followed by a hex favlue so here are the hex values
     var letters = '0123456789ABCDEF';
     var color = '#';
     for (var i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
+        color += letters[Math.floor(Math.random() * 16)]; //we take # and then we just append a random assortment of hex... stuff on the back yay new color
     }
     return color;
+}//this comparotor is used to sort the location of to objects(say for instance... the number of votes a table has) it returns 1 or or -1
+function compare(a, b) {
+    if (a.count < b.count)
+        return 1;
+    if (a.count > b.count)
+        return -1;
+    return 0;
 }
 
+//here where we start thepie chart stuff
 var D3Legend = React.createClass({
 
-  propTypes: {
+  propTypes: { // properties that a pie chart has
     width: React.PropTypes.number,
-    height: React.PropTypes.number,
-    colors: React.PropTypes.array.isRequired,
-    data: React.PropTypes.array.isRequired,
+    height: React.PropTypes.number,//using number for height and width because circles.
+    colors: React.PropTypes.array.isRequired, //this is the array we filled with color
+    data: React.PropTypes.array.isRequired, //this is the json dictionary we will pass in
   },
 
-  render: function() {
+  render: function() { //think of this like a constructor
     var color = this.props.colors;
     var data = this.props.data;
     var elements = data.map(function(item, i){
@@ -45,15 +56,17 @@ var D3Legend = React.createClass({
 var LegendElement = React.createClass({
   render: function() {
     var position =  "translate(" + this.props.xpos + "," + this.props.ypos + ")";
+      //size of the table is defined in the rect width and height down there
     return (
       <g transform={position}>
-        <rect width="18" height="18" fill={this.props.color[this.props.ikey]}></rect>
+        <rect width="18" height="18" fill={this.props.color[this.props.ikey]}></rect>     
         <text x="24" y="9" dy=".35em">{this.props.data}</text>
       </g>
     );
   }
 });
 
+//this peice of magic decides how big each slice of pie is
 var Sector = React.createClass({
   getInitialState: function() {
     return {text: '', opacity:'arc'};
@@ -77,20 +90,24 @@ var Sector = React.createClass({
     );
   },
 
+    //this is for the onHober function that shows % of pie on each slice
   onMouseOver: function() {
     this.setState({text: '', opacity:'arc-hover'});
     var percent = (this.props.data.value/this.props.total)*100;
     percent = percent.toFixed(1);
     this.setState({text: percent + " %"});
   },
+
   onMouseOut: function() {
     this.setState({text: '', opacity:'arc'});
   },
+    //onClick 
   onClick: function() {
     alert("You clicked "+this.props.name);
   }
 });
 
+//////////// data series////////////
 var DataSeries = React.createClass({
   propTypes: {
     width: React.PropTypes.number.isRequired,
@@ -98,9 +115,11 @@ var DataSeries = React.createClass({
     color: React.PropTypes.array,
     data: React.PropTypes.array.isRequired,
   },
-  render: function() {
+    render: function () {
+    
     var color = this.props.colors;
     var data = this.props.data;
+    data.sort(compare)
     var width = this.props.width;
     var height = this.props.height;
     var pie = d3.layout.pie();
@@ -124,6 +143,7 @@ var DataSeries = React.createClass({
     );
   }
 });
+//////////// end data series////////////
 
 var D3Chart = React.createClass({
   propTypes: {

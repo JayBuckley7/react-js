@@ -4,7 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
-
+/// <summary>
+/// The RouteConfig exists for when you want to do a 'non default' route in MVC.
+///  It's only when you start to want different routes for use cases that you might find yourself diving in here.
+/// 
+/// </summary>
 namespace VotingApp
 {
     public class RouteConfig

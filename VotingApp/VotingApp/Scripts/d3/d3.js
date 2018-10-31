@@ -1,4 +1,5 @@
-!function() {
+//dont mess with this, this is default from the d3 refrence https://d3js.org/ // gl
+!function () {
   var d3 = {
     version: "3.5.3"
   };

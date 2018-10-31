@@ -1,4 +1,7 @@
-﻿body {
+﻿
+/* generic sire.css file with and overflow added*/
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -7,6 +10,7 @@
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    overflow: visible
 }
 
 /* Set width on the form input elements since they're 100% wide by default */

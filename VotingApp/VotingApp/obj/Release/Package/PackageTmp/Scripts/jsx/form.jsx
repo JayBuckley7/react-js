@@ -76,14 +76,22 @@ var QuizContainer = React.createClass( {
             });
             
             var button_name = this.state.current_quiz.voteTxt;
-        return(
-            <div className="quizContainer">
-                <h1>{this.state.current_quiz.Header}</h1>
-                <p>{this.state.current_quiz.question}</p>
-                <button id="submit1" className="btn btn-default" onClick={this.handleSubmit}>{button_name}</button>
-                {choices}
-                <button id="submit2" className="btn btn-default" onClick={this.handleSubmit}>{button_name}</button>               
-            </div>
+            return (
+                <div className="Container1">
+
+                    <div className="quizContainer">
+                        <h1>{this.state.current_quiz.Header}</h1>
+                        <p>{this.state.current_quiz.question}</p>
+                        {choices}                          
+                    </div>
+
+                    <div className="navbar nb navbar-fixed-bottom">
+                        <div className="container">
+                                <button id="submit1" className="btn btn-default" onClick={this.handleSubmit}>{button_name}</button>
+                        </div>
+                    </div>
+
+                </div>
         );
 
 		}
